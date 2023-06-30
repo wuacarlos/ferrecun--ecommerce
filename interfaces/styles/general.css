@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(152, 152, 152);
+    font-family: Verdana, sans-serif;
+}
+
+/*TODO EL MENU*/
+.menu {
+    list-style-type: none;
+    background-color: #6F110A;
+    font-family: Verdana, sans-serif;
+    margin-top: 0px;
+    padding: 0px;
+    justify-content: space-between;
+}
+.menu ul {
+    align-items: center;
+}
+
+.menu li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menu li a.menuTitulo{
+    color: white;
+    display: block;
+    padding: 0px 20px;
+}
+.menu li a.menuImg{
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+  }
+
+.menu li a.menuImg img{
+    width: 6%;
+    padding-inline-start: 90%;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #9E2A24;
+    padding: 0;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+
+
+.submenu li {
+    display: block;
+}
+
+
+.submenu li a{
+    padding: 10px 20px;
+    color: #d1d1d1;
+}
+
+.submenu li a:hover {
+    background-color: #FF524A;
+}
+#busquedaMenu{
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+
+/*TODO EL FOOTER*/
+.informacion {
+    background-color: #9D1C07;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.informacion h3 {
+    margin: 0 10px;
+}
+
+.redes{
+    background-color: #6F110A;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
