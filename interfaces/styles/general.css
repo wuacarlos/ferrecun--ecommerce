@@ -1,13 +1,18 @@
 body{
-    background-color: rgb(152, 152, 152);
+    background-color: white;
     font-family: Verdana, sans-serif;
 }
 
+body .contenido{
+    background-color: #d9d9d9;
+}
 /*TODO EL MENU*/
 .menu {
     list-style-type: none;
     background-color: #6F110A;
     font-family: Verdana, sans-serif;
+    font-size: small;
+    font-weight: bold;
     margin-top: 0px;
     padding: 0px;
     justify-content: space-between;
@@ -74,29 +79,37 @@ body{
 }
 #busquedaMenu{
     padding: 5px 15px;
+    width: 120%;
     border-radius: 15px;
 }
 
 /*TODO EL FOOTER*/
-.informacion {
+
+
+/**/
+.informacion{
     background-color: #9D1C07;
+    padding: 1%;
     color: white;
+    text-align: center;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
 }
 
 .informacion h3 {
-    margin-top: 10%;
-    margin: 0 10px;
+margin-top: 2%;
+margin: 0 5px;
 }
 
 .redes{
     background-color: #6F110A;
+    padding: 5px;
     color: white;
+    margin-top: auto;
     display: flex;
     justify-content: center;
 }
-
 /*CSS DE SALME*/
 /*FIN CSS DE SALME*/
 
