@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FERRECUN</title>
+    <link rel="stylesheet" href="styles/general.css"> <!-- Enlace a una hoja de estilos externa -->
+
+    <script src="script.js"></script> <!-- Enlace a un archivo de script externo -->
+</head>
+
+<body>
+    <div class="contenido">
+        <header>
+            <!-- MENU -->
+        <div class="menuCentrar">
+            <nav class="menu">
+                <ul>
+
+                    <li><a class="menuTitulo" href="index.html"><h1>FERRECUN</h1></a></li>
+                    <li>
+                        <a class="menuImg" href="Carrito.html"><img src="images/carritoMenu.png"></a> 
+                    </li>
+
+                    <li><a href="#">Iniciar Sesión</a></li>
+
+                    <li>
+                        <a>Categorías</a>
+                        <ul class="submenu">
+                            <li><a href="categoriaHerramientas.html">Herramientas</a></li>
+                            <li><a href="categoriaPlomeria.html">Plomeria</a></li>
+                            <li><a href="categoriaMateriales.html">Materiales</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="Contacto.html">Contacto</a>
+                    </li>
+
+                    <li>
+                        <input id="busquedaMenu"type="text" placeholder="¿Buscabas algo?">
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+            
+        <!-- FIN MENU -->
+        </header>
+    
+        <main>
+            <h1>Nuestras Categorias</h1>
+            <hr style="border-width: 3px;">
+            <section style="text-align: center;">
+                <div style="display: inline-block; position: relative;">
+                    <img src="images/herrCat.jpeg" alt="Herramientas" style="display:inline-block; width: 520px; height: 250px; margin: 0 auto;">
+                    <h2 style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); padding: 10px; color: white; font-size: 40px;">Herramientas</h2>
+                </div>
+            </section><br>
+
+            <section style="display: flex; justify-content: space-between; align-items: flex-start;">
+                <div style="display: inline-block; position: relative;">
+                <img src="images/plomCat.jpg" alt="Plomeria" style="display: block; width: 520px; height: 250px; margin: 0 auto;">
+                <h2 style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); padding: 10px; color: white; font-size: 40px;">Plomeria</h2>
+                </div>
+
+                <div style="display: inline-block; position: relative;">
+                <img src="images/matCat.jpg" alt="Materiales" style="display: block; width: 520px; height: 250px; margin: 0 auto;">
+                <h2 style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); padding: 10px; color: white; font-size: 40px;">Materiales</h2>
+                </div>
+            </section><br>
+            
+            <h1>Productos Destacados</h1>
+            <hr style="border-width: 3px;">
+
+            <div style="display: flex; justify-content: space-between;">
+                <div class="card" style="border: 1px solid grey; background-color: #fff; text-align: center;">
+                <h3>Imagen</h3>
+                <div class="cuerpo">
+                    <p>Nombre y descripción del producto</p>
+                    <h5>Marca</h5>
+                    <p>Desde:</p>
+                    <h5>$Precio</h5>
+                </div>
+                <div class="pie">
+                    <a type="button" href="Carrito.js" style="background-color: orangered; border-radius: 5px; color: white;">Añadir al carrito</a>
+                </div>
+                </div>
+
+                <div class="card" style="border: 1px solid grey; background-color: #fff; text-align: center;">
+                    <h3>Imagen</h3>
+                <div class="cuerpo">
+                    <p>Nombre y descripción del producto</p>
+                    <h5>Marca</h5>
+                    <p>Desde:</p>
+                    <h5>$Precio</h5>
+                </div>
+                <div class="pie">
+                    <a type="button" href="Carrito.js" style="background-color: orangered; border-radius: 5px; color: white;">Añadir al carrito</a>
+                </div>
+                </div>
+
+                <div class="card" style="border: 1px solid grey; background-color: #fff; text-align: center;">
+                    <h3>Imagen</h3>
+                <div class="cuerpo">
+                    <p>Nombre y descripción del producto</p>
+                    <h5>Marca</h5>
+                    <p>Desde:</p>
+                    <h5>$Precio</h5>
+                </div>
+                <div class="pie">
+                    <a type="button" href="Carrito.js" style="background-color: orangered; border-radius: 5px; color: white;">Añadir al carrito</a>
+                </div>
+                </div>
+
+                <div class="card" style="border: 1px solid grey; background-color: #fff; text-align: center;">
+                    <h3>Imagen</h3>
+                <div class="cuerpo">
+                    <p>Nombre y descripción del producto</p>
+                    <h5>Marca</h5>
+                    <p>Desde:</p>
+                    <h5>$Precio</h5>
+                </div>
+                <div class="pie">
+                    <a type="button" style="background-color: orangered; border-radius: 5px; color: white;">Añadir al carrito</a>
+                </div>
+                </div>
+            </div> 
+
+        </main>
+    
+        <footer>
+            <div class="informacion">
+                <h3>¿QUIÉNES SOMOS?</h3>
+                <h3>ATÉNCION A CLIENTES</h3>
+                <h3>SOPORTE</h3>
+                <h3>ADMINISTRADOR</h3>
+            </div>
+            <div class="redes">
+                <h2>FERRECUN</h2>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
