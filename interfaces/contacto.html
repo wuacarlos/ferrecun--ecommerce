@@ -1,130 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<<<<<<< HEAD
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Contacto</title>
-    </head>
-    <h2>Contacto</h2>
-    <hr>
-    <p>Si tienes alguna pregunta o comentario te invitamos a llenar el formulario siguiente y te responderemos lo antes
-        posible.</p>
-
-    <div style="display: flex; margin: 40px;">
-        <div style="border: 2px solid grey; background-color: #a09d9d; text-align: left;">
-            <div style="width: 800px; height: 400px; margin: 5px;"><br>
-                <div>
-
-                    <form>
-                        <label for="Asunto">Asunto*</label><br>
-                        <input type="text" style="width: 400px;" id="Asunto" name="Asunto"
-                            placeholder="Ingresa el asunto de tu pregunta"><br>
-                        <label for="Nombre">Nombre*</label><br>
-                        <input type="text" style="width: 400px;" id="Nombre" name="Nombre"
-                            placeholder="Ingresa tu nombre"><br>
-                        <label for="Correo">Correo electrónico*</label><br>
-                        <input type="text" style="width: 400px;" id="Correo" name="Correo"
-                            placeholder="Ingresa tu correo"><br>
-                        <label for="Tel">Teléfono*</label><br>
-                        <input type="text" style="width: 400px;" id="Tel" name="Tel"
-                            placeholder="Ingresa tu teléfono"><br>
-                        <label for="mensaje">Déjanos tu mensaje*</label><br>
-                        <textarea type="text" style="width: 400px; height: 150px;" id="mensaje" name="mensaje"
-                            placeholder="Ingresa mensaje"></textarea><br>
-                        * Requerido
-                    </form>
-
-                </div>
-                <center><button type="button" style="background-color: #FF5B37;">¡Enviar mensaje!</button></center>
-=======
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FERRECUN</title>
     <link rel="stylesheet" href="styles/general.css"> <!-- Enlace a una hoja de estilos externa -->
-
     <script src="script.js"></script> <!-- Enlace a un archivo de script externo -->
 </head>
 
 <body>
-        <div class="contenido">
-            <header>
-                <!-- MENU -->
-                <div class="menuCentrar">
-                    <nav class="menu">
-                        <ul>
+    <div class="contenido">
+        <header>
+            <!-- MENU -->
+            <div class="menuCentrar">
+                <nav class="menu">
+                    <ul>
+                        <li><a class="menuTitulo" href="index.html"><h1>FERRECUN</h1></a></li>
+                        <li><a class="menuImg" href="Carrito.html"><img src="images/carritoMenu.png"></a></li>
+                        <li>
+                            <a>Categorías</a>
+                            <ul class="submenu">
+                                <li><a href="categoriaHerramientas.html">Herramientas</a></li>
+                                <li><a href="categoriaPlomeria.html">Plomeria</a></li>
+                                <li><a href="categoriaMateriales.html">Materiales</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Contacto.html">Contacto</a></li>
+                        <li><input id="busquedaMenu"type="text" placeholder="¿Buscabas algo?"></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- FIN MENU -->
+        </header>
 
-                            <li><a class="menuTitulo" href="index.html"><h1>FERRECUN</h1></a></li>
-                            <li>
-                                <a class="menuImg" href="Carrito.html"><img src="images/carritoMenu.png"></a> 
-                            </li>
-
-                            <li>
-                                <a>Categorías</a>
-                                <ul class="submenu">
-                                    <li><a href="categoriaHerramientas.html">Herramientas</a></li>
-                                    <li><a href="categoriaPlomeria.html">Plomeria</a></li>
-                                    <li><a href="categoriaMateriales.html">Materiales</a></li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <a href="Contacto.html">Contacto</a>
-                            </li>
-
-                            <li>
-                                <input id="busquedaMenu"type="text" placeholder="¿Buscabas algo?">
-                            </li>
-
-                        </ul>
-                    </nav>
-                </div>
-                    
-                <!-- FIN MENU -->
-            </header>
-
-                <h2>Contacto</h2>
-                <hr>
-                <p>Si tienes alguna pregunta o comentario te invitamos a llenar el formulario siguiente y te responderemos lo antes
-                    posible.</p>
+        <h2>Contacto</h2>
+        <hr>
+        <p>Si tienes alguna pregunta o comentario te invitamos a llenar el formulario siguiente y te responderemos lo antes posible.</p>
 
         <div style="display: flex; margin: 40px;">
             <div style="border: 2px solid grey; background-color: #a09d9d; text-align: left;">
                 <div style="width: 800px; height: 400px; margin: 5px;"><br>
-                    <div>
-
-                        <form>
-                            <label for="Asunto">Asunto*</label><br>
-                            <input type="text" style ="width: 400px;" id="Asunto" name="Asunto" placeholder="Ingresa el asunto de tu pregunta"><br>
-                            <label for="Nombre">Nombre*</label><br>
-                            <input type="text" style ="width: 400px;" id="Nombre" name="Nombre" placeholder="Ingresa tu nombre"><br>
-                            <label for="Correo">Correo electrónico*</label><br>
-                            <input type="text" style ="width: 400px;" id="Correo" name="Correo" placeholder="Ingresa tu correo"><br>
-                            <label for="Tel">Teléfono*</label><br>
-                            <input type="text" style ="width: 400px;" id="Tel" name="Tel" placeholder="Ingresa tu teléfono"><br>
-                            <label for="mensaje">Déjanos tu mensaje*</label><br>
-                            <textarea type="text" style ="width: 400px; height: 150px;" id="mensaje" name="mensaje" placeholder="Ingresa mensaje"></textarea><br>
-                                * Requerido
-                        </form>
-
-                    </div>
-                    <button type="button" style="background-color: #FF5B37; align-items: center;">¡Enviar mensaje!</button>
+                    <form>
+                        <label for="Asunto">Asunto*</label><br>
+                        <input type="text" style="width: 400px;" id="Asunto" name="Asunto" placeholder="Ingresa el asunto de tu pregunta"><br>
+                        <label for="Nombre">Nombre*</label><br>
+                        <input type="text" style="width: 400px;" id="Nombre" name="Nombre" placeholder="Ingresa tu nombre"><br>
+                        <label for="Correo">Correo electrónico*</label><br>
+                        <input type="text" style="width: 400px;" id="Correo" name="Correo" placeholder="Ingresa tu correo"><br>
+                        <label for="Tel">Teléfono*</label><br>
+                        <input type="text" style="width: 400px;" id="Tel" name="Tel" placeholder="Ingresa tu teléfono"><br>
+                        <label for="mensaje">Déjanos tu mensaje*</label><br>
+                        <textarea type="text" style="width: 400px; height: 150px;" id="mensaje" name="mensaje" placeholder="Ingresa mensaje"></textarea><br>
+                        <p>* Requerido</p>
+                        <button type="button" style="background-color: #FF5B37; align-items: center;">¡Enviar mensaje!</button>
+                    </form>
                 </div>
->>>>>>> 66c74a994c3c3122b06354d5d8a702d9c34f545d
             </div>
         </div>
 
-
-
-
         <h2>Preguntas frecuentes</h2>
         <hr>
+
+        <div>
+            <select aria-label="Default select example" style="width: 500px; margin: 5px;">
+                <option>¿Cómo puedo realizar una compra en su ferretería en línea?</option>
+                <option>Explora nuestro catálogo y selecciona los productos que deseas y añádelos al carrito. Completa la información de pago y dirección de envío, luego confirma el pedido. Realiza el pago utilizando tarjeta de crédito, débito o la pasarela de pago segura. Recibirás una confirmación de compra y, si está disponible, un número de seguimiento para rastrear el envío. Si necesitas ayuda, comunícate con nuestro servicio al cliente.</option>
+            </select>
+            <br>
+            <select aria-label="Default select example" style="width: 500px; margin: 5px;">
+                <option selected>¿Cuáles son los métodos de pago aceptados?</option>
+                <option>Explora</option>
+            </select>
+            <br>
+            <select aria-label="Default select example" style="width: 500px; margin: 5px;">
+                <option selected>¿Realizan envíos a mi ubicación? ¿Cuánto tiempo tarda en llegar?</option>
+                <option>Explora</option>
+            </select>
+            <br>
+            <select aria-label="Default select example" style="width: 500px; margin: 5px;">
+                <option selected>¿Cuáles son los costos de envío?</option>
+                <option>Explora</option>
+            </select>
+            <br>
+            <select aria-label="Default select example" style="width: 500px; margin: 5px;">
+                <option selected>¿Tienen una tienda física donde pueda ver los productos personalmente?</option>
+                <option>Explora</option>
+            </select>
+            <br>
+        </div>
+
         <footer>
             <div class="informacion">
                 <h3>¿QUIÉNES SOMOS?</h3>
-                <h3>ATÉNCION A CLIENTES</h3>
+                <h3>ATENCIÓN A CLIENTES</h3>
                 <h3>SOPORTE</h3>
                 <h3>ADMINISTRADOR</h3>
             </div>
@@ -133,44 +102,6 @@
             </div>
         </footer>
     </div>
-<<<<<<< HEAD
-
-    <h2>Preguntas frecuentes</h2>
-    <hr>
-
-    <div>
-        <select aria-label="Default select example" style=" width: 500px; margin: 5px;">
-            <option style ="width: 500px;">¿Cómo puedo realizar una compra en su ferretería en línea?</option>
-            <option style ="width: 500px;">Explora nuestro catalogo y selecciona los productos que deseas y añádelos al carrito.
-                Completa la información de pago y dirección de envío, luego confirma el pedido. Realiza
-                el pago utilizando tarjeta de crédito, débito o la pasarela de pago segura. Recibirás
-                una confirmación de compra y, si está disponible, un número de seguimiento para rastrear
-                el envío. Si necesitas ayuda, comunícate con nuestro servicio al cliente.
-            </option>
-        </select><br>
-        <select aria-label="Default select example" style=" width: 500px; margin: 5px;">
-            <option selected>¿Cuáles son los métodos de pago aceptados?</option>
-            <option >Explora</option>
-        </select><br>
-        <select aria-label="Default select example" style=" width: 500px; margin: 5px;">
-            <option selected>¿Realizan envíos a mi ubicación? ¿Cuánto tiempo tarda en llegar?</option>
-            <option >Explora</option>
-        </select><br>
-        <select aria-label="Default select example" style=" width: 500px; margin: 5px;">
-            <option selected>¿Cuáles son los costos de envío?</option>
-            <option >Explora</option>
-        </select><br>
-        <select aria-label="Default select example" style=" width: 500px; margin: 5px;">
-            <option selected>¿Tienen una tienda física donde pueda ver los productos personalmente?</option>
-            <option >Explora</option>
-        </select><br>
-    </div>
-
-    </body>
-
-    </html>
-=======
 </body>
 
 </html>
->>>>>>> 66c74a994c3c3122b06354d5d8a702d9c34f545d
